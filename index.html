@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
+    <title>Aidan's portfolio page</title>
+</head>
+<body>
+    <header>
+    <a href="index.html"><h1>Aidan Maycock</h1></a>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2 class="page-title">My Projects</h2>
+        <section class="project-box">
+            <section class="links-section">
+                <img draggable=false class="project-image" src="/images/back-end.png"/>
+                <section class="buttons-section">
+                    <a href="https://github.com/Oathian/NC-Games-Backend" class="link-buttons"><img src="/images/github.svg"/></a>
+                    <a href="https://nc-games-aidan.herokuapp.com/api" class="link-buttons"><img src="/images/eye.svg"/></a>
+                </section>
+            </section>
+            <section  class="desc-section">
+                <h3>Backend Project</h3>
+                <p>This was my first project, a restful API built with JavaScript in node, express, PostgresSQL and tested using Jest.</p>
+                <p>The major challenge I faced with this project was with version control as this was the first time I had used the github branches feature. With practice however, I overcame these difficulties and have dealt with merge conflicts better in my later projects.</p>
+                <p>I am pleased with how I handled my SQL database queries and table joins, before the project I would have thought these would have caused the most issues. I am also pleased with the way I wrote the test to check if a review is deleted.</p>
+            </section>
+        </section>
+        <section class="project-box">
+            <section class="links-section">
+                <img draggable=false class="project-image" src="/images/chess.png"/>
+                <section class="buttons-section">
+                    <a href="https://github.com/Oathian/nc-games" class="link-buttons"><img src="/images/github.svg"/></a>
+                    <a href="https://aidans-nc-games.netlify.app/" class="link-buttons"><img src="/images/eye.svg"/></a>
+                </section>
+            </section>
+            <section  class="desc-section">
+                <h3>Front Project</h3>
+                <p>This project was a discussion board built in React using HTML, CSS and React hooks.</p>
+                <p>There were a few challenges along the way most of them CSS based. I found it difficult to get the image and colour gradient of the background to work as I wanted though I got the desired result in the end.</p>
+                <p>I really like the spinning loading sign and I think the design of the sorting menu looks neat considering how messy it could have been.</p>
+            </section>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

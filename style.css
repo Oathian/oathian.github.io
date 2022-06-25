@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --orange:#d36801;
+    --blue:#284557;
+    --grey:#3d3232;
+    --brown:#86430b;
+    --white:#dbdbdb;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--blue);
+    border-bottom: 0.2rem solid var(--orange);
+}
+
+header a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.nav-list a{
+    margin: 0rem 2rem 2rem 0rem;
+}
+
+header a:hover {
+    color: var(--orange);
+}
+
+body {
+    background-color: white;
+}
+
+.page-title {
+    color: var(--blue);
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+
+.project-box{
+    margin: 5% 10% 5% 10%;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    border: var(--blue) solid 3px;
+    border-radius: 1rem;
+}
+
+.links-section {
+    grid-template-rows: 18rem 4.5rem;
+    grid-column-start: 1;
+    display: grid;
+    justify-content: center;
+    border-right: 2px solid var(--orange);
+    background-color: var(--white);
+    border-radius: 1rem 0rem 0rem 1rem;
+}
+
+.project-image{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem 0 0 0;
+}
+
+.buttons-section {
+    border-top: 2px solid var(--orange);
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-buttons{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    grid-row-start: 2;
+    border-color: var(--blue);
+    border-style: solid;
+    cursor: pointer;
+}
+
+.link-buttons:hover {
+    border-color: var(--orange);
+}
+
+.link-buttons img {
+    margin: -1px 0 0 -1px;
+    max-height: 52px;
+    max-width: 52px;
+}
+
+.desc-section {
+    grid-column-start: 2;
+    padding: 1rem;
+    color: var(--blue);
+}
+
+.desc-section p {
+    margin: 1rem;
+    color: var(--grey);
+}
+
+.contact-section {
+    border: var(--blue) solid 3px;
+    border-radius: 1rem;
+    margin: 5% 15% 5% 15%;
+    padding: 2rem;
+}
+
+form input {
+    display: block;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    display: block;
+    border: var(--blue) solid 3px;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
