@@ -180,3 +180,27 @@ form button:hover {
     border: var(--orange) solid 3px;
     color: var(--orange);
 }
+
+.about-section {
+    border: var(--blue) solid 3px;
+    border-radius: 1rem;
+    margin: 0% 15% 5% 15%;
+    padding: 2rem 0rem 2rem 0rem;
+    color: var(--blue);
+    background-color: var(--white);
+}
+
+.about-section p{
+    padding: 0.4rem;
+}
+
+.text-links {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--orange);
+    margin: 0.5rem;
+}
+
+.text-links:hover {
+    color: var(--blue);
+}
