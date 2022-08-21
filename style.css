@@ -204,3 +204,12 @@ form button:hover {
 .text-links:hover {
     color: var(--blue);
 }
+
+.video-section {
+    border: var(--blue) solid 3px;
+    border-radius: 1rem;
+    margin: 0% 15% 0% 15%;
+    padding: 0rem 0rem 2rem 0rem;
+    color: var(--blue);
+    background-color: var(--white);
+}
